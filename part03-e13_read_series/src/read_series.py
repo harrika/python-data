@@ -14,6 +14,7 @@ def read_series():
 			raise Exception('you input was malformed ')
 		ix.append(aa[0])
 		wd.append(aa[1])
+
 	return pd.Series(wd, index=ix)
 
 def main():
